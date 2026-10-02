@@ -1,0 +1,41 @@
+{
+  "default_assembly_envelope_mm": [
+    120.0,
+    285.64,
+    402.0
+  ],
+  "base_footprint_mm": [
+    120,
+    110
+  ],
+  "fixed_mast_top_mm": 370,
+  "overall_handwheel_top_mm": 402,
+  "guide_overlap_mm": 80,
+  "mast_section_mm": [
+    35,
+    30
+  ],
+  "nominal_guide_clearance_per_side_mm": 0.3,
+  "nominal_lens_height_positions_mm": [
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300
+  ],
+  "load_pin_spacing_mm": 50,
+  "adjustment_screw": "PurchasedM6x300, standard coarse pitch1mm",
+  "turns_per_25mm_step": 25,
+  "steel_insert_mm": [
+    100,
+    74,
+    17.2
+  ],
+  "calculated_steel_mass_kg": 0.999148,
+  "ballast_is_secured": true,
+  "physical_strength_and_stability_tested": false,
+  "source_optical_envelope_measured": false,
+  "print_part_count": 9
+}

@@ -1,0 +1,22 @@
+menu "Digital pen network"
+
+    config DIGITAL_PEN_WIFI_SSID
+        string "Development Wi-Fi SSID"
+        default ""
+        help
+            2.4 GHz network used by the development frame transport.
+            Keep the actual value in the git-ignored local sdkconfig.
+
+    config DIGITAL_PEN_WIFI_PASSWORD
+        string "Development Wi-Fi password"
+        default ""
+        help
+            Password for the development Wi-Fi network. This value must only
+            be stored in the git-ignored local sdkconfig.
+
+    config DIGITAL_PEN_WIFI_TIMEOUT_SECONDS
+        int "STA DHCP timeout before SoftAP fallback"
+        range 1 120
+        default 15
+
+endmenu

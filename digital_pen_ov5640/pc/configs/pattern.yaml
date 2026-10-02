@@ -1,0 +1,40 @@
+generator:
+  root: D:/ESP32_project/AnotoPdfGenerator/AnotoPdfGenerator-main
+
+profiles:
+  A:
+    page_id: prototype-a
+    manifest: ../../artifacts/patterns/prototype-a/prototype-a_55x55_s10_2.manifest.json
+    dpi: 600
+    grid_spacing_mm: 3.5278
+    offset_mm: 1.0583
+    dot_radius_mm: 0.3528
+    colors:
+      up: "#000000"
+      down: "#000000"
+      left: "#000000"
+      right: "#000000"
+
+  B:
+    page_id: prototype-b
+    dpi: 600
+    grid_spacing_mm: 1.0
+    offset_mm: 0.167
+    dot_radius_mm: 0.1
+    colors:
+      up: "#000000"
+      down: "#000000"
+      left: "#000000"
+      right: "#000000"
+
+  C:
+    page_id: prototype-c
+    dpi: 1200
+    grid_spacing_mm: 0.3
+    offset_mm: 0.05
+    dot_radius_mm: 0.05
+    colors:
+      up: "#000000"
+      down: "#000000"
+      left: "#000000"
+      right: "#000000"

@@ -1,0 +1,144 @@
+{
+  "source": "/workspace/shared/camera_stand_v4/OV5640_height_adjustable_v4.blend",
+  "units": "millimetres, STL unitless but coordinates are millimetres",
+  "count": 9,
+  "failed": [],
+  "max_axis_mm": 190.0,
+  "parts": [
+    {
+      "part": "V4_01_ballast_base",
+      "filename": "V4_01_ballast_base.stl",
+      "dimensions_mm": [
+        120.0,
+        110.0,
+        24.0
+      ],
+      "triangles": 3380,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "底面朝下；切片前检查孔径与支撑",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_02_base_lid_and_socket",
+      "filename": "V4_02_base_lid_and_socket.stl",
+      "dimensions_mm": [
+        120.0,
+        110.0,
+        39.0
+      ],
+      "triangles": 1960,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "底面朝下；切片前检查孔径与支撑",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_03_lower_guide_mast190",
+      "filename": "V4_03_lower_guide_mast190.stl",
+      "dimensions_mm": [
+        35.0,
+        190.0,
+        30.0
+      ],
+      "triangles": 1936,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "后面平放，半搭接槽朝上；端面螺母/头部沉孔需校准",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_04_upper_guide_mast190",
+      "filename": "V4_04_upper_guide_mast190.stl",
+      "dimensions_mm": [
+        35.0,
+        190.0,
+        30.0
+      ],
+      "triangles": 3508,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "前面平放，半搭接槽朝上；必须保证外导向表面平顺",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_05_indexed_80mm_carriage",
+      "filename": "V4_05_indexed_80mm_carriage.stl",
+      "dimensions_mm": [
+        43.6,
+        65.3,
+        80.0
+      ],
+      "triangles": 3230,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "导向孔竖直；后方丝杆螺母座悬挑处用局部支撑，勿损坏滑动内壁",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_06_arm_and_fixed_pitch_fork",
+      "filename": "V4_06_arm_and_fixed_pitch_fork.stl",
+      "dimensions_mm": [
+        40.0,
+        143.5,
+        40.6
+      ],
+      "triangles": 3962,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "侧面平放并用局部支撑，保证悬臂长向层内强度",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_07_pitch_carrier",
+      "filename": "V4_07_pitch_carrier.stl",
+      "dimensions_mm": [
+        20.0,
+        25.17,
+        25.0
+      ],
+      "triangles": 2848,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "转轴端面朝下，安装耳局部支撑",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_08_electronics_tray",
+      "filename": "V4_08_electronics_tray.stl",
+      "dimensions_mm": [
+        94.0,
+        94.0,
+        27.0
+      ],
+      "triangles": 2434,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "托盘顶面朝下，支脚向上",
+      "status": "fit-test prototype; not production validated"
+    },
+    {
+      "part": "V4_09_lead_screw_top_cap",
+      "filename": "V4_09_lead_screw_top_cap.stl",
+      "dimensions_mm": [
+        40.0,
+        65.0,
+        21.0
+      ],
+      "triangles": 902,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "orientation": "顶盖上平面朝下，内插键向上",
+      "status": "fit-test prototype; not production validated"
+    }
+  ]
+}

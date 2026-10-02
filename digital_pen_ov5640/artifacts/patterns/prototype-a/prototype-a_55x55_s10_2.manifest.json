@@ -1,0 +1,12 @@
+{
+  "page_id": "prototype-a",
+  "section_u": 10,
+  "section_v": 2,
+  "rows": 55,
+  "cols": 55,
+  "grid_spacing_mm": 3.5278,
+  "dot_radius_mm": 0.3528,
+  "offset_mm": 1.0583,
+  "matrix_json": "D:\\ESP32_project\\digital_pen\\digital_pen_ov5640\\artifacts\\patterns\\prototype-a\\prototype-a_55x55_s10_2.matrix.json",
+  "pdf_path": "D:\\ESP32_project\\digital_pen\\digital_pen_ov5640\\artifacts\\patterns\\prototype-a\\prototype-a_55x55_s10_2.pdf"
+}
